@@ -13,6 +13,27 @@ class UserViewController: UIViewController {
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var backBtn: UIButton!
     
+    var model:Model?
+    
+    lazy var previewActions: [UIPreviewActionItem] = {
+        func previewActionForTitle(title: String, style: UIPreviewActionStyle = .Default) -> UIPreviewAction {
+            return UIPreviewAction(title: title, style: style) { previewAction, viewController in
+                print("点击了\(title)")
+            }
+        }
+        
+        let action1 = previewActionForTitle("关注TA",style: .Destructive)
+        let action2 = previewActionForTitle("私信TA")
+        
+        let subAction1 = previewActionForTitle("微博")
+        let subAction2 = previewActionForTitle("好友圈")
+        let subAction3 = previewActionForTitle("QQ")
+        let subAction4 = previewActionForTitle("微信")
+        let groupedActions = UIPreviewActionGroup(title: "分享…", style: .Default, actions: [subAction1, subAction2,subAction3,subAction4] )
+        
+        return [action1, action2, groupedActions]
+    }()
+    
     
     //MARK:- Life Cycle
     override func viewDidLoad() {
@@ -21,6 +42,13 @@ class UserViewController: UIViewController {
         let layer = self.avaterImageView.layer
         layer.masksToBounds = true
         layer.cornerRadius = self.avaterImageView.frame.size.width / 2
+    
+        self.nameLabel.text = model!.name
+        self.avaterImageView.image = UIImage(named: "avater\(model!.index)")
+    }
+    
+    override func previewActionItems() -> [UIPreviewActionItem] {
+        return previewActions
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -37,12 +65,12 @@ class UserViewController: UIViewController {
     override func viewWillDisappear(animated: Bool) {
         super.viewWillDisappear(animated)
         print("viewWillDisappear")
+        self.navigationController?.navigationBar.hidden = false
     }
     
     override func viewDidDisappear(animated: Bool) {
         super.viewDidDisappear(animated)
         print("viewDidDisappear")
-        self.navigationController?.navigationBar.hidden = false
     }
     
     //开始Peek
@@ -55,11 +83,12 @@ class UserViewController: UIViewController {
         self.backBtn.hidden = false
     }
     
-    
     //MARK:- UI Event
     @IBAction func backAction(sender: AnyObject) {
         self.navigationController?.popViewControllerAnimated(true)
     }
+    
+    
     
     
 }

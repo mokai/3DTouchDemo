@@ -10,14 +10,12 @@ import UIKit
 
 class ManTableVCCell: UITableViewCell {
     
+    var once_t:dispatch_once_t = 0
+    
     @IBOutlet weak var bgView: UIImageView!
-    
     @IBOutlet weak var nameBtn: UIButton!
-    
     @IBOutlet weak var commentBtn: UIButton!
-    
     @IBOutlet weak var likeBtn: UIButton!
-    
     
     override func awakeFromNib() {
         let layer = self.nameBtn.layer
@@ -25,9 +23,9 @@ class ManTableVCCell: UITableViewCell {
         layer.cornerRadius = self.nameBtn.frame.size.width / 2
     }
     
-    func setModel(model:Model,index:NSIndexPath){
-        self.bgView.image = UIImage(named: "\(index.row+1)")
-        self.nameBtn.setImage(UIImage(named: "avater\(index.row+1)"), forState: .Normal)
+    func setModel(model:Model){
+        self.bgView.image = UIImage(named: "\(model.index)")
+        self.nameBtn.setImage(UIImage(named: "avater\(model.index)"), forState: .Normal)
         self.commentBtn.setTitle("评论\(model.comments)", forState: .Normal)
         self.likeBtn.setTitle("\(model.like)", forState: .Normal)
     }

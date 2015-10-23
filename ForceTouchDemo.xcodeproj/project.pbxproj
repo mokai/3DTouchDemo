@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		525C1D0F1BD8D70F00D0E84B /* ManViewController+UIViewControllerPreviewingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525C1D0E1BD8D70F00D0E84B /* ManViewController+UIViewControllerPreviewingDelegate.swift */; settings = {ASSET_TAGS = (); }; };
-		525C1D111BD8E2AD00D0E84B /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525C1D101BD8E2AD00D0E84B /* UserViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		525C1D131BD8EAEF00D0E84B /* UIViewController+PeekCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525C1D121BD8EAEF00D0E84B /* UIViewController+PeekCycle.swift */; settings = {ASSET_TAGS = (); }; };
-		52C3019D1BD8CD1000732499 /* ManTableVCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C3019C1BD8CD1000732499 /* ManTableVCCell.swift */; settings = {ASSET_TAGS = (); }; };
+		525C1D111BD8E2AD00D0E84B /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525C1D101BD8E2AD00D0E84B /* UserViewController.swift */; };
+		527284661BD9D2BE00E1CD74 /* ManViewController+UIViewControllerPreviewingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527284641BD9D2BE00E1CD74 /* ManViewController+UIViewControllerPreviewingDelegate.swift */; };
+		527284671BD9D2BE00E1CD74 /* UIViewController+PeekCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527284651BD9D2BE00E1CD74 /* UIViewController+PeekCycle.swift */; };
+		5272846A1BD9D2DF00E1CD74 /* ManTableVCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527284691BD9D2DF00E1CD74 /* ManTableVCCell.swift */; };
+		5272846E1BD9D8EA00E1CD74 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5272846D1BD9D8EA00E1CD74 /* DetailViewController.swift */; };
 		52C5BC881BD8845E00D82AD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C5BC871BD8845E00D82AD7 /* AppDelegate.swift */; };
 		52C5BC8A1BD8845E00D82AD7 /* ManViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C5BC891BD8845E00D82AD7 /* ManViewController.swift */; };
 		52C5BC8D1BD8845E00D82AD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C5BC8B1BD8845E00D82AD7 /* Main.storyboard */; };
@@ -38,10 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		525C1D0E1BD8D70F00D0E84B /* ManViewController+UIViewControllerPreviewingDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ManViewController+UIViewControllerPreviewingDelegate.swift"; sourceTree = "<group>"; };
 		525C1D101BD8E2AD00D0E84B /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
-		525C1D121BD8EAEF00D0E84B /* UIViewController+PeekCycle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+PeekCycle.swift"; sourceTree = "<group>"; };
-		52C3019C1BD8CD1000732499 /* ManTableVCCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManTableVCCell.swift; sourceTree = "<group>"; };
+		527284641BD9D2BE00E1CD74 /* ManViewController+UIViewControllerPreviewingDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ManViewController+UIViewControllerPreviewingDelegate.swift"; sourceTree = "<group>"; };
+		527284651BD9D2BE00E1CD74 /* UIViewController+PeekCycle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+PeekCycle.swift"; sourceTree = "<group>"; };
+		527284691BD9D2DF00E1CD74 /* ManTableVCCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManTableVCCell.swift; sourceTree = "<group>"; };
+		5272846D1BD9D8EA00E1CD74 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		52C5BC841BD8845E00D82AD7 /* ForceTouchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForceTouchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C5BC871BD8845E00D82AD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52C5BC891BD8845E00D82AD7 /* ManViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +84,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		527284631BD9D2AE00E1CD74 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				527284641BD9D2BE00E1CD74 /* ManViewController+UIViewControllerPreviewingDelegate.swift */,
+				527284651BD9D2BE00E1CD74 /* UIViewController+PeekCycle.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		527284681BD9D2D500E1CD74 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				527284691BD9D2DF00E1CD74 /* ManTableVCCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		52C5BC7B1BD8845E00D82AD7 = {
 			isa = PBXGroup;
 			children = (
@@ -105,16 +124,16 @@
 		52C5BC861BD8845E00D82AD7 /* ForceTouchDemo */ = {
 			isa = PBXGroup;
 			children = (
+				527284681BD9D2D500E1CD74 /* Cell */,
+				527284631BD9D2AE00E1CD74 /* Category */,
 				52C5BC871BD8845E00D82AD7 /* AppDelegate.swift */,
 				52C5BC891BD8845E00D82AD7 /* ManViewController.swift */,
-				525C1D0E1BD8D70F00D0E84B /* ManViewController+UIViewControllerPreviewingDelegate.swift */,
-				52C3019C1BD8CD1000732499 /* ManTableVCCell.swift */,
-				52C5BC8B1BD8845E00D82AD7 /* Main.storyboard */,
-				52C5BC8E1BD8845E00D82AD7 /* Assets.xcassets */,
-				52C5BC901BD8845E00D82AD7 /* LaunchScreen.storyboard */,
-				52C5BC931BD8845E00D82AD7 /* Info.plist */,
 				525C1D101BD8E2AD00D0E84B /* UserViewController.swift */,
-				525C1D121BD8EAEF00D0E84B /* UIViewController+PeekCycle.swift */,
+				5272846D1BD9D8EA00E1CD74 /* DetailViewController.swift */,
+				52C5BC8B1BD8845E00D82AD7 /* Main.storyboard */,
+				52C5BC901BD8845E00D82AD7 /* LaunchScreen.storyboard */,
+				52C5BC8E1BD8845E00D82AD7 /* Assets.xcassets */,
+				52C5BC931BD8845E00D82AD7 /* Info.plist */,
 			);
 			path = ForceTouchDemo;
 			sourceTree = "<group>";
@@ -268,12 +287,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				527284671BD9D2BE00E1CD74 /* UIViewController+PeekCycle.swift in Sources */,
 				52C5BC8A1BD8845E00D82AD7 /* ManViewController.swift in Sources */,
 				525C1D111BD8E2AD00D0E84B /* UserViewController.swift in Sources */,
-				52C3019D1BD8CD1000732499 /* ManTableVCCell.swift in Sources */,
+				5272846A1BD9D2DF00E1CD74 /* ManTableVCCell.swift in Sources */,
 				52C5BC881BD8845E00D82AD7 /* AppDelegate.swift in Sources */,
-				525C1D131BD8EAEF00D0E84B /* UIViewController+PeekCycle.swift in Sources */,
-				525C1D0F1BD8D70F00D0E84B /* ManViewController+UIViewControllerPreviewingDelegate.swift in Sources */,
+				527284661BD9D2BE00E1CD74 /* ManViewController+UIViewControllerPreviewingDelegate.swift in Sources */,
+				5272846E1BD9D8EA00E1CD74 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
