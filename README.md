@@ -1,7 +1,12 @@
 # 3DTouchDemo
 
+##环境: 
+Xcode7&iOS9 later 
+iPhone6s&iPhone6sPlus later
+
+
 ##Screen
-因为是iOS9，好像目前所有录屏软件都用不了，所以无奈先用图片
+因为系统是iOS9，好像目前所有录屏软件都用不了，所以无奈先用图片
 
 <image src='1.png' width=250 height=400>
 <image src='2.png' width=250 height=400>
