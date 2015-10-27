@@ -30,18 +30,18 @@ class ManViewController: UITableViewController {
         Model(name: "Tim", comments: 2, like: 4,index:10),
         Model(name: "Jone", comments: 1, like: 6,index:11)
     ];
+    private var i = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         self.tableView.rowHeight = 200;
         
         if traitCollection.forceTouchCapability == .Available {
             //注册View具有Previewing功能，View所有子视图
-            registerForPreviewingWithDelegate(self, sourceView: view)
-        }
-        else {
-            let alertController = UIAlertController(title: "3D Touch Not Available", message: "Unsupported device.", preferredStyle: .Alert)
-            presentViewController(alertController, animated: true, completion: nil)
+            //registerForPreviewingWithDelegate(self, sourceView: view)
+        }else {
+            print("不支持3D Touch")
         }
     }
 
@@ -55,19 +55,30 @@ class ManViewController: UITableViewController {
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell =  tableView.dequeueReusableCellWithIdentifier("ManTableVCCell") as! ManTableVCCell
-        //保证只执行一次，虽然多执行几次也没什么关系
+        //保证每个Cell只注册一次
         weak var wself = self
         dispatch_once(&cell.once_t) { () -> Void in
             wself!.registerForPreviewingWithDelegate(wself!, sourceView: cell.nameBtn)
+            wself!.registerForPreviewingWithDelegate(wself!, sourceView: cell.bgBtnView)
+            wself!.registerForPreviewingWithDelegate(wself!, sourceView: cell.commentBtn)
+            //likeBtn不用设置，通过segue直接设置Peek&Pop
+            print("register\(wself!.i++)")
         }
         cell.setModel(dataSource[indexPath.row])
         return cell
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if segue.identifier == "showDetail",let indexPath = tableView.indexPathForSelectedRow{
-            let detailViewController = segue.destinationViewController  as! DetailViewController
-            detailViewController.model = dataSource[indexPath.row]
+        if segue.identifier == "showDetail",let btn = sender as? UIButton,let detailVC = segue.destinationViewController  as? DetailViewController{
+            let location = btn.convertPoint(CGPointZero, toView:self.tableView)
+            let index = super.tableView.indexPathForRowAtPoint(location)
+            let model = dataSource[index!.row]
+            detailVC.model = model
+        }else if segue.identifier == "showUser",let btn = sender as? UIButton,let userVC = segue.destinationViewController  as? UserViewController{
+            let location = btn.convertPoint(CGPointZero, toView:self.tableView)
+            let index = super.tableView.indexPathForRowAtPoint(location)
+            let model = dataSource[index!.row]
+            userVC.model = model
         }
     }
 }

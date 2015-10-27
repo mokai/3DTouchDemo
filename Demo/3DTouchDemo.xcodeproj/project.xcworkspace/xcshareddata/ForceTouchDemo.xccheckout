@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A4425886-2EE4-40A4-88A5-8549902752C9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ForceTouchDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0F0DD612E6EDB188EA4D7B3AF9ED045BF5AFF6C0</key>
+		<string>https://github.com/rodionovd/rd_route.git</string>
+		<key>35BAA73562B8E5ED5D775086F414FEE551A111B8</key>
+		<string>https://github.com/mokai/3DTouchDemo.git</string>
+		<key>DA32DB67BB2FB194F379E7F746C135F6917A1C07</key>
+		<string>https://github.com/rodionovd/SWRoute</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ForceTouchDemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0F0DD612E6EDB188EA4D7B3AF9ED045BF5AFF6C0</key>
+		<string>../..ForceTouchDemo/SWRoute/rd_route/</string>
+		<key>35BAA73562B8E5ED5D775086F414FEE551A111B8</key>
+		<string>../..</string>
+		<key>DA32DB67BB2FB194F379E7F746C135F6917A1C07</key>
+		<string>../..ForceTouchDemo/SWRoute/</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mokai/3DTouchDemo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>35BAA73562B8E5ED5D775086F414FEE551A111B8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>35BAA73562B8E5ED5D775086F414FEE551A111B8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ForceTouchDemo</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0F0DD612E6EDB188EA4D7B3AF9ED045BF5AFF6C0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>rd_route</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DA32DB67BB2FB194F379E7F746C135F6917A1C07</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SWRoute</string>
+		</dict>
+	</array>
+</dict>
+</plist>

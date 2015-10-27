@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ForceTouchDemo.xcodeproj">
+      location = "self:/Users/gongkai/Desktop/ForceTouchDemo/3DTouchDemo.xcodeproj">
    </FileRef>
 </Workspace>

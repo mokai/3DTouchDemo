@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "35BAA73562B8E5ED5D775086F414FEE551A111B8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "DA32DB67BB2FB194F379E7F746C135F6917A1C07" : 0,
+    "0F0DD612E6EDB188EA4D7B3AF9ED045BF5AFF6C0" : 0,
+    "35BAA73562B8E5ED5D775086F414FEE551A111B8" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A4425886-2EE4-40A4-88A5-8549902752C9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "DA32DB67BB2FB194F379E7F746C135F6917A1C07" : "ForceTouchDemo\/ForceTouchDemo\/SWRoute\/",
+    "0F0DD612E6EDB188EA4D7B3AF9ED045BF5AFF6C0" : "ForceTouchDemo\/ForceTouchDemo\/SWRoute\/rd_route\/",
+    "35BAA73562B8E5ED5D775086F414FEE551A111B8" : "ForceTouchDemo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ForceTouchDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ForceTouchDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rodionovd\/rd_route.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0F0DD612E6EDB188EA4D7B3AF9ED045BF5AFF6C0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mokai\/3DTouchDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "35BAA73562B8E5ED5D775086F414FEE551A111B8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rodionovd\/SWRoute",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DA32DB67BB2FB194F379E7F746C135F6917A1C07"
+    }
+  ]
+}

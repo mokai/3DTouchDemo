@@ -8,7 +8,7 @@
 
 import UIKit
 
-class UserViewController: UIViewController {
+class UserViewController: UIViewController,UIGestureRecognizerDelegate {
     @IBOutlet weak var avaterImageView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var backBtn: UIButton!
@@ -21,7 +21,6 @@ class UserViewController: UIViewController {
                 print("点击了\(title)")
             }
         }
-        
         let action1 = previewActionForTitle("关注TA",style: .Destructive)
         let action2 = previewActionForTitle("私信TA")
         
@@ -45,6 +44,7 @@ class UserViewController: UIViewController {
     
         self.nameLabel.text = model!.name
         self.avaterImageView.image = UIImage(named: "avater\(model!.index)")
+        
     }
     
     override func previewActionItems() -> [UIPreviewActionItem] {
@@ -87,10 +87,6 @@ class UserViewController: UIViewController {
     @IBAction func backAction(sender: AnyObject) {
         self.navigationController?.popViewControllerAnimated(true)
     }
-    
-    
-    
-    
 }
 
 

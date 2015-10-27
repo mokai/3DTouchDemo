@@ -44,17 +44,17 @@
 		527284651BD9D2BE00E1CD74 /* UIViewController+PeekCycle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+PeekCycle.swift"; sourceTree = "<group>"; };
 		527284691BD9D2DF00E1CD74 /* ManTableVCCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManTableVCCell.swift; sourceTree = "<group>"; };
 		5272846D1BD9D8EA00E1CD74 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		52C5BC841BD8845E00D82AD7 /* ForceTouchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForceTouchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52C5BC841BD8845E00D82AD7 /* 3DTouchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3DTouchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C5BC871BD8845E00D82AD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52C5BC891BD8845E00D82AD7 /* ManViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManViewController.swift; sourceTree = "<group>"; };
 		52C5BC8C1BD8845E00D82AD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52C5BC8E1BD8845E00D82AD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52C5BC911BD8845E00D82AD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52C5BC931BD8845E00D82AD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52C5BC981BD8845E00D82AD7 /* ForceTouchDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForceTouchDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52C5BC981BD8845E00D82AD7 /* 3DTouchDemo.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3DTouchDemo.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C5BC9C1BD8845E00D82AD7 /* ForceTouchDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForceTouchDemoTests.swift; sourceTree = "<group>"; };
 		52C5BC9E1BD8845E00D82AD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52C5BCA31BD8845E00D82AD7 /* ForceTouchDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForceTouchDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52C5BCA31BD8845E00D82AD7 /* 3DTouchDemo.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3DTouchDemo.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C5BCA71BD8845E00D82AD7 /* ForceTouchDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForceTouchDemoUITests.swift; sourceTree = "<group>"; };
 		52C5BCA91BD8845E00D82AD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -114,9 +114,9 @@
 		52C5BC851BD8845E00D82AD7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				52C5BC841BD8845E00D82AD7 /* ForceTouchDemo.app */,
-				52C5BC981BD8845E00D82AD7 /* ForceTouchDemoTests.xctest */,
-				52C5BCA31BD8845E00D82AD7 /* ForceTouchDemoUITests.xctest */,
+				52C5BC841BD8845E00D82AD7 /* 3DTouchDemo.app */,
+				52C5BC981BD8845E00D82AD7 /* 3DTouchDemo.xctest */,
+				52C5BCA31BD8845E00D82AD7 /* 3DTouchDemo.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -159,9 +159,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		52C5BC831BD8845E00D82AD7 /* ForceTouchDemo */ = {
+		52C5BC831BD8845E00D82AD7 /* 3DTouchDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52C5BCAC1BD8845E00D82AD7 /* Build configuration list for PBXNativeTarget "ForceTouchDemo" */;
+			buildConfigurationList = 52C5BCAC1BD8845E00D82AD7 /* Build configuration list for PBXNativeTarget "3DTouchDemo" */;
 			buildPhases = (
 				52C5BC801BD8845E00D82AD7 /* Sources */,
 				52C5BC811BD8845E00D82AD7 /* Frameworks */,
@@ -171,14 +171,14 @@
 			);
 			dependencies = (
 			);
-			name = ForceTouchDemo;
+			name = 3DTouchDemo;
 			productName = ForceTouchDemo;
-			productReference = 52C5BC841BD8845E00D82AD7 /* ForceTouchDemo.app */;
+			productReference = 52C5BC841BD8845E00D82AD7 /* 3DTouchDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		52C5BC971BD8845E00D82AD7 /* ForceTouchDemoTests */ = {
+		52C5BC971BD8845E00D82AD7 /* 3DTouchDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52C5BCAF1BD8845E00D82AD7 /* Build configuration list for PBXNativeTarget "ForceTouchDemoTests" */;
+			buildConfigurationList = 52C5BCAF1BD8845E00D82AD7 /* Build configuration list for PBXNativeTarget "3DTouchDemoTests" */;
 			buildPhases = (
 				52C5BC941BD8845E00D82AD7 /* Sources */,
 				52C5BC951BD8845E00D82AD7 /* Frameworks */,
@@ -189,14 +189,14 @@
 			dependencies = (
 				52C5BC9A1BD8845E00D82AD7 /* PBXTargetDependency */,
 			);
-			name = ForceTouchDemoTests;
+			name = 3DTouchDemoTests;
 			productName = ForceTouchDemoTests;
-			productReference = 52C5BC981BD8845E00D82AD7 /* ForceTouchDemoTests.xctest */;
+			productReference = 52C5BC981BD8845E00D82AD7 /* 3DTouchDemo.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		52C5BCA21BD8845E00D82AD7 /* ForceTouchDemoUITests */ = {
+		52C5BCA21BD8845E00D82AD7 /* 3DTouchDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52C5BCB21BD8845E00D82AD7 /* Build configuration list for PBXNativeTarget "ForceTouchDemoUITests" */;
+			buildConfigurationList = 52C5BCB21BD8845E00D82AD7 /* Build configuration list for PBXNativeTarget "3DTouchDemoUITests" */;
 			buildPhases = (
 				52C5BC9F1BD8845E00D82AD7 /* Sources */,
 				52C5BCA01BD8845E00D82AD7 /* Frameworks */,
@@ -207,9 +207,9 @@
 			dependencies = (
 				52C5BCA51BD8845E00D82AD7 /* PBXTargetDependency */,
 			);
-			name = ForceTouchDemoUITests;
+			name = 3DTouchDemoUITests;
 			productName = ForceTouchDemoUITests;
-			productReference = 52C5BCA31BD8845E00D82AD7 /* ForceTouchDemoUITests.xctest */;
+			productReference = 52C5BCA31BD8845E00D82AD7 /* 3DTouchDemo.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -223,7 +223,6 @@
 				TargetAttributes = {
 					52C5BC831BD8845E00D82AD7 = {
 						CreatedOnToolsVersion = 7.0.1;
-						DevelopmentTeam = 58MC74TJG5;
 					};
 					52C5BC971BD8845E00D82AD7 = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -235,7 +234,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 52C5BC7F1BD8845E00D82AD7 /* Build configuration list for PBXProject "ForceTouchDemo" */;
+			buildConfigurationList = 52C5BC7F1BD8845E00D82AD7 /* Build configuration list for PBXProject "3DTouchDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -248,9 +247,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				52C5BC831BD8845E00D82AD7 /* ForceTouchDemo */,
-				52C5BC971BD8845E00D82AD7 /* ForceTouchDemoTests */,
-				52C5BCA21BD8845E00D82AD7 /* ForceTouchDemoUITests */,
+				52C5BC831BD8845E00D82AD7 /* 3DTouchDemo */,
+				52C5BC971BD8845E00D82AD7 /* 3DTouchDemoTests */,
+				52C5BCA21BD8845E00D82AD7 /* 3DTouchDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -318,12 +317,12 @@
 /* Begin PBXTargetDependency section */
 		52C5BC9A1BD8845E00D82AD7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 52C5BC831BD8845E00D82AD7 /* ForceTouchDemo */;
+			target = 52C5BC831BD8845E00D82AD7 /* 3DTouchDemo */;
 			targetProxy = 52C5BC991BD8845E00D82AD7 /* PBXContainerItemProxy */;
 		};
 		52C5BCA51BD8845E00D82AD7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 52C5BC831BD8845E00D82AD7 /* ForceTouchDemo */;
+			target = 52C5BC831BD8845E00D82AD7 /* 3DTouchDemo */;
 			targetProxy = 52C5BCA41BD8845E00D82AD7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -436,8 +435,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ForceTouchDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.mokai.ForceTouchDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = me.mokai.TouchDemo;
+				PRODUCT_NAME = 3DTouchDemo;
 			};
 			name = Debug;
 		};
@@ -448,8 +447,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ForceTouchDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.mokai.ForceTouchDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = me.mokai.TouchDemo;
+				PRODUCT_NAME = 3DTouchDemo;
 			};
 			name = Release;
 		};
@@ -460,8 +459,8 @@
 				INFOPLIST_FILE = ForceTouchDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.mokai.ForceTouchDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForceTouchDemo.app/ForceTouchDemo";
+				PRODUCT_NAME = 3DTouchDemo;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3DTouchDemo.app/3DTouchDemo";
 			};
 			name = Debug;
 		};
@@ -472,8 +471,8 @@
 				INFOPLIST_FILE = ForceTouchDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.mokai.ForceTouchDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForceTouchDemo.app/ForceTouchDemo";
+				PRODUCT_NAME = 3DTouchDemo;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3DTouchDemo.app/3DTouchDemo";
 			};
 			name = Release;
 		};
@@ -483,7 +482,7 @@
 				INFOPLIST_FILE = ForceTouchDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.mokai.ForceTouchDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = 3DTouchDemo;
 				TEST_TARGET_NAME = ForceTouchDemo;
 				USES_XCTRUNNER = YES;
 			};
@@ -495,7 +494,7 @@
 				INFOPLIST_FILE = ForceTouchDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.mokai.ForceTouchDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = 3DTouchDemo;
 				TEST_TARGET_NAME = ForceTouchDemo;
 				USES_XCTRUNNER = YES;
 			};
@@ -504,7 +503,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		52C5BC7F1BD8845E00D82AD7 /* Build configuration list for PBXProject "ForceTouchDemo" */ = {
+		52C5BC7F1BD8845E00D82AD7 /* Build configuration list for PBXProject "3DTouchDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52C5BCAA1BD8845E00D82AD7 /* Debug */,
@@ -513,7 +512,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52C5BCAC1BD8845E00D82AD7 /* Build configuration list for PBXNativeTarget "ForceTouchDemo" */ = {
+		52C5BCAC1BD8845E00D82AD7 /* Build configuration list for PBXNativeTarget "3DTouchDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52C5BCAD1BD8845E00D82AD7 /* Debug */,
@@ -522,7 +521,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52C5BCAF1BD8845E00D82AD7 /* Build configuration list for PBXNativeTarget "ForceTouchDemoTests" */ = {
+		52C5BCAF1BD8845E00D82AD7 /* Build configuration list for PBXNativeTarget "3DTouchDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52C5BCB01BD8845E00D82AD7 /* Debug */,
@@ -531,7 +530,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52C5BCB21BD8845E00D82AD7 /* Build configuration list for PBXNativeTarget "ForceTouchDemoUITests" */ = {
+		52C5BCB21BD8845E00D82AD7 /* Build configuration list for PBXNativeTarget "3DTouchDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52C5BCB31BD8845E00D82AD7 /* Debug */,

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "52C5BC831BD8845E00D82AD7"
-               BuildableName = "ForceTouchDemo.app"
-               BlueprintName = "ForceTouchDemo"
-               ReferencedContainer = "container:ForceTouchDemo.xcodeproj">
+               BuildableName = "3DTouchDemo.app"
+               BlueprintName = "3DTouchDemo"
+               ReferencedContainer = "container:3DTouchDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "52C5BC971BD8845E00D82AD7"
-               BuildableName = "ForceTouchDemoTests.xctest"
-               BlueprintName = "ForceTouchDemoTests"
-               ReferencedContainer = "container:ForceTouchDemo.xcodeproj">
+               BuildableName = "3DTouchDemo.xctest"
+               BlueprintName = "3DTouchDemoTests"
+               ReferencedContainer = "container:3DTouchDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "52C5BCA21BD8845E00D82AD7"
-               BuildableName = "ForceTouchDemoUITests.xctest"
-               BlueprintName = "ForceTouchDemoUITests"
-               ReferencedContainer = "container:ForceTouchDemo.xcodeproj">
+               BuildableName = "3DTouchDemo.xctest"
+               BlueprintName = "3DTouchDemoUITests"
+               ReferencedContainer = "container:3DTouchDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "52C5BC831BD8845E00D82AD7"
-            BuildableName = "ForceTouchDemo.app"
-            BlueprintName = "ForceTouchDemo"
-            ReferencedContainer = "container:ForceTouchDemo.xcodeproj">
+            BuildableName = "3DTouchDemo.app"
+            BlueprintName = "3DTouchDemo"
+            ReferencedContainer = "container:3DTouchDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -69,6 +69,7 @@
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
+      enableAddressSanitizer = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
       <BuildableProductRunnable
@@ -76,12 +77,17 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "52C5BC831BD8845E00D82AD7"
-            BuildableName = "ForceTouchDemo.app"
-            BlueprintName = "ForceTouchDemo"
-            ReferencedContainer = "container:ForceTouchDemo.xcodeproj">
+            BuildableName = "3DTouchDemo.app"
+            BlueprintName = "3DTouchDemo"
+            ReferencedContainer = "container:3DTouchDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
+         <AdditionalOption
+            key = "NSZombieEnabled"
+            value = "YES"
+            isEnabled = "YES">
+         </AdditionalOption>
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
@@ -95,9 +101,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "52C5BC831BD8845E00D82AD7"
-            BuildableName = "ForceTouchDemo.app"
-            BlueprintName = "ForceTouchDemo"
-            ReferencedContainer = "container:ForceTouchDemo.xcodeproj">
+            BuildableName = "3DTouchDemo.app"
+            BlueprintName = "3DTouchDemo"
+            ReferencedContainer = "container:3DTouchDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

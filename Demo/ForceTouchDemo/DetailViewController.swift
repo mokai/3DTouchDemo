@@ -15,7 +15,6 @@ enum DetailPeekType:Int{
 
 
 class DetailViewController: UIViewController {
-    @IBOutlet weak var commentsHeight: NSLayoutConstraint!
     @IBOutlet weak var imageViewHeight: NSLayoutConstraint!
     private var lastHeight:CGFloat!
     
@@ -31,24 +30,17 @@ class DetailViewController: UIViewController {
         imageView.image = UIImage(named: "\(model.index)")
     }
     
+    //开始时根据不同内容全屏
     override func beginPeek() {
+        lastHeight = imageViewHeight.constant
         if(peekType == .Comments){
-            lastHeight = commentsHeight.constant
-            commentsHeight.constant = self.view.frame.size.height
+            imageViewHeight.constant = 0
         }else{
-            lastHeight = commentsHeight.constant
-            imageViewHeight.priority = UILayoutPriorityRequired
-            commentsHeight.constant = 0
+            imageViewHeight.constant = self.view.frame.size.height
         }
     }
     
     override func endPeek() {
-        if(peekType == .Comments){
-            commentsHeight.constant = lastHeight
-        }else{
-            commentsHeight.constant = lastHeight
-        }
+        imageViewHeight.constant = lastHeight
     }
-    
-    
 }

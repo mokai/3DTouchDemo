@@ -12,6 +12,7 @@ extension ManViewController:UIViewControllerPreviewingDelegate{
     
     func previewingContext(previewingContext: UIViewControllerPreviewing, var viewControllerForLocation location: CGPoint) -> UIViewController? {
         
+        print(previewingContext.sourceView.tag)
         //根据点击位置算出Row
         if(previewingContext.sourceView.tag != 0){ //如果不是在UITableView上触发的则是子视图，先转换为UITableView的Point
             location = previewingContext.sourceView.convertPoint(location, toView:self.tableView)
@@ -34,8 +35,11 @@ extension ManViewController:UIViewControllerPreviewingDelegate{
             let detailVc = self.storyboard?.instantiateViewControllerWithIdentifier("DetailViewController") as! DetailViewController
             detailVc.model = model
             detailVc.peekType = .Image
+            //设置Peek的高度
+            detailVc.preferredContentSize = CGSize(width: 0.0, height: 320);
             vc = detailVc
         }
+        vc?.title = "标题测试"
         vc?.view //先访问一下view，初始化
         vc?.beginPeek() //peek开始
         return vc
