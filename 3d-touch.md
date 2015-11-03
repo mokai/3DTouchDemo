@@ -21,9 +21,12 @@ tags: "3D Touch"
 * UITouch自定义3D Touch事件
 
 ## Quick Actions
-配置Actions可以通过工程`Info.plist`文件静态配置，也可以在运行时动态添加，两者间可以一起使用。
 
-静态配置在添加`Info.plist`中的`UIApplicationShortcutItems`节点中添加相应Action信息，
+<image src='https://raw.githubusercontent.com/mokai/3DTouchDemo/master/1.png' width='200'/>
+
+配置Actions可以通过工程`Info.plist`文件静态配置，也可以在运行时动态添加，两者可以一起使用。
+
+静态配置在添加`Info.plist`中的`UIApplicationShortcutItems`节点中添加相应Actions信息，
 
 ```
 <key>UIApplicationShortcutItems</key>
@@ -34,57 +37,31 @@ tags: "3D Touch"
 		<key>UIApplicationShortcutItemTitle</key>
 		<string>搜索</string>
 		<key>UIApplicationShortcutItemType</key>
-		<string>me.mokai.action.search</string>
+		<string>me.mokai.TouchDemo.action.search</string>
 	</dict>
-	<dict>
-		<key>UIApplicationShortcutItemIconFile</key>
-		<string>quick_filter</string>
-		<key>UIApplicationShortcutItemTitle</key>
-		<string>听歌识别</string>
-		<key>UIApplicationShortcutItemType</key>
-		<string>me.mokai.action.identify</string>
-	</dict>
-	<dict>
-		<key>UIApplicationShortcutItemIconFile</key>
-		<string>quick_randomlisten</string>
-		<key>UIApplicationShortcutItemTitle</key>
-		<string>随便听听</string>
-		<key>UIApplicationShortcutItemType</key>
-		<string>me.mokai.action.pay</string>
-	</dict>
+	...
 </array>
 ```	
-其中`UIApplicationShortcutItemIconType`与`UIApplicationShortcutItemIconFile`都是指定Action的图标，前者是使用系统定义的后者使用自定义图标。`UIApplicationShortcutItemType`为Action标识，用于区分哪个Action被点击。
 
-动态配置通过`UIApplication的shortcutItems`添加，shortcutItems是`UIApplicationShortcutItem`数组。需要注意的是，shortcutItems中的值生命周期是随APP在手机的安装与卸载，安装后第一次启动应用，shortcutItems中的Actions是静态配置的内容，
-
-像我们上面静态配置了Actions，那么shortcutItems是包含这些Actions的，而非为空。所以我们在附加时应该先判断是否为空
+动态配置通过`UIApplication的shortcutItems`添加，shortcutItems是一个`UIApplicationShortcutItem`数组
 
 ```
-struct QuickType {
-    static var preSong = (title:"最近听歌",subtitle:"Let it go - Demi Lovato",type:"me.mokai.action.presong",userinfo:["url":"http://music.baidu.com/song/92279724?fm=altg_new3"])
-}
-func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-    //MARK:动态追加Item
-    if application.shortcutItems?.first?.type != QuickType.preSong.type{
-        let preSongItem = UIApplicationShortcutItem(type: QuickType.preSong.type, localizedTitle:QuickType.preSong.title , localizedSubtitle: QuickType.preSong.subtitle, icon: UIApplicationShortcutIcon(type: .Play), userInfo: QuickType.preSong.userinfo)
-        var shortcutItems = application.shortcutItems
-        shortcutItems?.append(preSongItem)
-        application.shortcutItems = shortcutItems
-    }else{
-        print("已经添加")
-    }
-    return true
-}
+let type = "me.mokai.TouchDemo.action.identify"
+let title = "听歌识别"
+let shortcutItem = UIApplicationShortcutItem(type: type, localizedTitle: title,
+ localizedSubtitle: nil, icon: UIApplicationShortcutIcon(templateImageName: "quick_filter"), userInfo: nil)
+application.shortcutItems = [shortcutItem]
 ```
+####Note
 
+* Actions的图标可以使用系统预定的也可以自定义图片
+* 对于每个Actions来说`type`是必须的，它代表着我们从桌面点击Actions进入到应用调用`application(application, performActionForShortcutItem:, completionHandler:)`时的唯一标识，另外userInfo可以附加每个actions的数据，如最近听歌的歌曲id
+* 当APP启动时，shortcutItems保存的是上次动态添加的，如果是第一次启动则为空数组。
+* Actions最多显示4个，优先显示静态Actions，然后剩余个数显示shortcutItems的前几个。
 
-
-核心类是UIApplicationShortItem，代表一个
-
-动态配置
 
 ## Peek&Pop
+
 使用场合
 
 ## UITouch
