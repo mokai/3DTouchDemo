@@ -9,29 +9,29 @@
 import UIKit
 
 
-struct QuickType {
-    static var preSong = (title:"最近听歌",subtitle:"Let it go - Demi Lovato",type:"me.mokai.action.presong",userinfo:["url":"http://music.baidu.com/song/92279724?fm=altg_new3"])
-}
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
-    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        
-        //MARK:动态追加Item
-        if application.shortcutItems?.first?.type != QuickType.preSong.type{
-            let preSongItem = UIApplicationShortcutItem(type: QuickType.preSong.type, localizedTitle:QuickType.preSong.title , localizedSubtitle: QuickType.preSong.subtitle, icon: UIApplicationShortcutIcon(type: .Play), userInfo: QuickType.preSong.userinfo)
-            var shortcutItems = application.shortcutItems
-            shortcutItems?.append(preSongItem)
-            application.shortcutItems = shortcutItems
-        }else{
-            print("已经添加")
-        }
-        return true
+struct QuickType {
+    static var preSong = (title:"最近听歌",subtitle:"Let it go - Demi Lovato",type:"me.mokai.action.presong",userinfo:["url":"http://music.baidu.com/song/92279724?fm=altg_new3"])
+}
+func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+    
+    //MARK:动态追加Item
+    if application.shortcutItems?.first?.type != QuickType.preSong.type{
+        let preSongItem = UIApplicationShortcutItem(type: QuickType.preSong.type, localizedTitle:QuickType.preSong.title , localizedSubtitle: QuickType.preSong.subtitle, icon: UIApplicationShortcutIcon(type: .Play), userInfo: QuickType.preSong.userinfo)
+        var shortcutItems = application.shortcutItems
+        shortcutItems?.append(preSongItem)
+        application.shortcutItems = shortcutItems
+    }else{
+        print("已经添加")
     }
+    return true
+}
     
     func application(application: UIApplication, performActionForShortcutItem shortcutItem: UIApplicationShortcutItem, completionHandler: (Bool) -> Void) {
         
