@@ -1,8 +1,9 @@
 # 3DTouchDemo
 
 ##环境: 
-Xcode7&iOS9 later 
-iPhone6s&iPhone6sPlus later
+系统环境: iOS9 or later
+
+开发环境: Swift2.0 & Xcode7.1
 
 
 ##Screen

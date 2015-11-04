@@ -308,6 +308,7 @@
                     <connections>
                         <outlet property="avaterImageView" destination="v47-gQ-A6X" id="1mk-Ht-6xd"/>
                         <outlet property="backBtn" destination="nCZ-9g-D4l" id="Yhq-qT-oYA"/>
+                        <outlet property="bottomView" destination="5TT-ey-g0D" id="SxV-KD-h7B"/>
                         <outlet property="nameLabel" destination="ND8-Y6-mZ7" id="KUx-IW-2Vw"/>
                     </connections>
                 </viewController>
@@ -344,7 +345,7 @@
                                                         <constraint firstAttribute="height" constant="21" id="RSp-Eo-ZTE"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="default">
                                                         <mask key="constraints">
@@ -389,7 +390,7 @@
                                                         <constraint firstAttribute="height" constant="21" id="Xl7-FQ-a6N"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="default">
                                                         <mask key="constraints">
@@ -409,9 +410,9 @@
                                             </constraints>
                                             <variation key="default">
                                                 <mask key="constraints">
-                                                    <exclude reference="SZ8-tn-QCF"/>
-                                                    <exclude reference="QCW-dY-76t"/>
                                                     <exclude reference="Jax-pc-0Zf"/>
+                                                    <exclude reference="QCW-dY-76t"/>
+                                                    <exclude reference="SZ8-tn-QCF"/>
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
@@ -434,12 +435,12 @@
                                                         <constraint firstAttribute="width" constant="74" id="Wyu-gC-XVM"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="default">
                                                         <mask key="constraints">
-                                                            <exclude reference="Wyu-gC-XVM"/>
                                                             <exclude reference="1BX-I7-oZG"/>
+                                                            <exclude reference="Wyu-gC-XVM"/>
                                                         </mask>
                                                     </variation>
                                                 </label>
@@ -454,9 +455,9 @@
                                             </constraints>
                                             <variation key="default">
                                                 <mask key="constraints">
-                                                    <exclude reference="dqM-vB-zW7"/>
                                                     <exclude reference="1kR-Ec-l1t"/>
                                                     <exclude reference="Vif-TV-hUF"/>
+                                                    <exclude reference="dqM-vB-zW7"/>
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
@@ -479,7 +480,7 @@
                                                         <constraint firstAttribute="height" constant="21" id="mhP-FN-JaM"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="default">
                                                         <mask key="constraints">
@@ -499,9 +500,9 @@
                                             </constraints>
                                             <variation key="default">
                                                 <mask key="constraints">
+                                                    <exclude reference="D6W-ED-Y7D"/>
                                                     <exclude reference="Ra4-aW-orx"/>
                                                     <exclude reference="iSX-ot-qIt"/>
-                                                    <exclude reference="D6W-ED-Y7D"/>
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
@@ -524,12 +525,12 @@
                                                         <constraint firstAttribute="width" constant="74" id="yVT-XM-8MC"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="default">
                                                         <mask key="constraints">
-                                                            <exclude reference="RMg-Hq-KrZ"/>
                                                             <exclude reference="Qxa-Xw-ie4"/>
+                                                            <exclude reference="RMg-Hq-KrZ"/>
                                                         </mask>
                                                     </variation>
                                                 </label>
@@ -544,9 +545,9 @@
                                             </constraints>
                                             <variation key="default">
                                                 <mask key="constraints">
-                                                    <exclude reference="ecT-eq-wep"/>
-                                                    <exclude reference="OWu-pf-J6Y"/>
                                                     <exclude reference="Nkb-Qv-jUc"/>
+                                                    <exclude reference="OWu-pf-J6Y"/>
+                                                    <exclude reference="ecT-eq-wep"/>
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
@@ -569,7 +570,7 @@
                                                         <constraint firstAttribute="width" constant="74" id="cpO-ZC-wHZ"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="default">
                                                         <mask key="constraints">
@@ -589,9 +590,9 @@
                                             </constraints>
                                             <variation key="default">
                                                 <mask key="constraints">
+                                                    <exclude reference="4eK-oe-Fy1"/>
                                                     <exclude reference="eyN-Lk-6ar"/>
                                                     <exclude reference="mUF-nC-p62"/>
-                                                    <exclude reference="4eK-oe-Fy1"/>
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
@@ -614,12 +615,12 @@
                                                         <constraint firstAttribute="width" constant="74" id="pwu-cx-toG"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="default">
                                                         <mask key="constraints">
-                                                            <exclude reference="pwu-cx-toG"/>
                                                             <exclude reference="PXM-IF-1Wl"/>
+                                                            <exclude reference="pwu-cx-toG"/>
                                                         </mask>
                                                     </variation>
                                                 </label>
@@ -634,8 +635,8 @@
                                             </constraints>
                                             <variation key="default">
                                                 <mask key="constraints">
-                                                    <exclude reference="FxI-kL-mC8"/>
                                                     <exclude reference="EAO-En-ifg"/>
+                                                    <exclude reference="FxI-kL-mC8"/>
                                                     <exclude reference="RPp-2G-DXz"/>
                                                 </mask>
                                             </variation>
@@ -659,7 +660,7 @@
                                                         <constraint firstAttribute="width" constant="74" id="cm9-1v-sVC"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="default">
                                                         <mask key="constraints">
@@ -679,9 +680,9 @@
                                             </constraints>
                                             <variation key="default">
                                                 <mask key="constraints">
-                                                    <exclude reference="wah-JA-RT0"/>
                                                     <exclude reference="F9z-7x-fub"/>
                                                     <exclude reference="OsT-br-qD0"/>
+                                                    <exclude reference="wah-JA-RT0"/>
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
@@ -704,12 +705,12 @@
                                                         <constraint firstAttribute="height" constant="21" id="xUT-KF-D35"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="default">
                                                         <mask key="constraints">
-                                                            <exclude reference="DZw-R3-ZSo"/>
                                                             <exclude reference="8cZ-Du-yMs"/>
+                                                            <exclude reference="DZw-R3-ZSo"/>
                                                         </mask>
                                                     </variation>
                                                 </label>
@@ -749,12 +750,12 @@
                                                         <constraint firstAttribute="width" constant="74" id="sar-YB-cFG"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="default">
                                                         <mask key="constraints">
-                                                            <exclude reference="sar-YB-cFG"/>
                                                             <exclude reference="qa0-tv-CBg"/>
+                                                            <exclude reference="sar-YB-cFG"/>
                                                         </mask>
                                                     </variation>
                                                 </label>
@@ -769,8 +770,8 @@
                                             </constraints>
                                             <variation key="default">
                                                 <mask key="constraints">
-                                                    <exclude reference="TYz-zG-bek"/>
                                                     <exclude reference="5VC-q5-0o4"/>
+                                                    <exclude reference="TYz-zG-bek"/>
                                                     <exclude reference="apx-cc-2pm"/>
                                                 </mask>
                                             </variation>
@@ -794,12 +795,12 @@
                                                         <constraint firstAttribute="width" constant="74" id="iOd-b8-Fza"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="default">
                                                         <mask key="constraints">
-                                                            <exclude reference="dDs-K5-CHV"/>
                                                             <exclude reference="QHC-f8-z5O"/>
+                                                            <exclude reference="dDs-K5-CHV"/>
                                                         </mask>
                                                     </variation>
                                                 </label>
@@ -814,8 +815,8 @@
                                             </constraints>
                                             <variation key="default">
                                                 <mask key="constraints">
-                                                    <exclude reference="e9a-cf-p8N"/>
                                                     <exclude reference="27e-wc-ZPS"/>
+                                                    <exclude reference="e9a-cf-p8N"/>
                                                     <exclude reference="uN5-tQ-ove"/>
                                                 </mask>
                                             </variation>
@@ -839,12 +840,12 @@
                                                         <constraint firstAttribute="width" constant="74" id="gGh-Wb-Hmf"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="default">
                                                         <mask key="constraints">
-                                                            <exclude reference="Tr4-fZ-89i"/>
                                                             <exclude reference="DT1-pL-eh5"/>
+                                                            <exclude reference="Tr4-fZ-89i"/>
                                                         </mask>
                                                     </variation>
                                                 </label>
@@ -884,7 +885,7 @@
                                                         <constraint firstAttribute="width" constant="74" id="pwR-th-uAY"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="default">
                                                         <mask key="constraints">
@@ -929,12 +930,12 @@
                                                         <constraint firstAttribute="width" constant="74" id="wgi-Sz-Xyw"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="default">
                                                         <mask key="constraints">
-                                                            <exclude reference="g4R-cI-obT"/>
                                                             <exclude reference="Tfa-N3-6bQ"/>
+                                                            <exclude reference="g4R-cI-obT"/>
                                                         </mask>
                                                     </variation>
                                                 </label>
@@ -949,9 +950,9 @@
                                             </constraints>
                                             <variation key="default">
                                                 <mask key="constraints">
+                                                    <exclude reference="21m-9g-tcL"/>
                                                     <exclude reference="6yV-Eo-uCM"/>
                                                     <exclude reference="a3t-Cj-yhW"/>
-                                                    <exclude reference="21m-9g-tcL"/>
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
@@ -974,12 +975,12 @@
                                                         <constraint firstAttribute="width" constant="74" id="fvf-Cb-AsQ"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="default">
                                                         <mask key="constraints">
-                                                            <exclude reference="fvf-Cb-AsQ"/>
                                                             <exclude reference="YXx-tJ-wzJ"/>
+                                                            <exclude reference="fvf-Cb-AsQ"/>
                                                         </mask>
                                                     </variation>
                                                 </label>
@@ -994,9 +995,9 @@
                                             </constraints>
                                             <variation key="default">
                                                 <mask key="constraints">
+                                                    <exclude reference="1Dv-eu-8uB"/>
                                                     <exclude reference="i65-at-Gd6"/>
                                                     <exclude reference="qjl-7T-J67"/>
-                                                    <exclude reference="1Dv-eu-8uB"/>
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
@@ -1019,7 +1020,7 @@
                                                         <constraint firstAttribute="height" constant="21" id="XQd-fY-rJL"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="default">
                                                         <mask key="constraints">
@@ -1039,9 +1040,9 @@
                                             </constraints>
                                             <variation key="default">
                                                 <mask key="constraints">
+                                                    <exclude reference="32x-zy-im2"/>
                                                     <exclude reference="4a1-IO-xGV"/>
                                                     <exclude reference="vgq-Up-ykb"/>
-                                                    <exclude reference="32x-zy-im2"/>
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
@@ -1064,12 +1065,12 @@
                                                         <constraint firstAttribute="width" constant="74" id="bRZ-7t-3SX"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="default">
                                                         <mask key="constraints">
-                                                            <exclude reference="R4o-ZM-rb0"/>
                                                             <exclude reference="8tf-VK-yi3"/>
+                                                            <exclude reference="R4o-ZM-rb0"/>
                                                         </mask>
                                                     </variation>
                                                 </label>
@@ -1109,12 +1110,12 @@
                                                         <constraint firstAttribute="width" constant="74" id="spH-qt-j7h"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="default">
                                                         <mask key="constraints">
-                                                            <exclude reference="spH-qt-j7h"/>
                                                             <exclude reference="dcU-Wh-NNu"/>
+                                                            <exclude reference="spH-qt-j7h"/>
                                                         </mask>
                                                     </variation>
                                                 </label>
@@ -1130,8 +1131,8 @@
                                             <variation key="default">
                                                 <mask key="constraints">
                                                     <exclude reference="Xrv-jJ-Sfd"/>
-                                                    <exclude reference="ybb-3w-cri"/>
                                                     <exclude reference="wIK-0B-iTy"/>
+                                                    <exclude reference="ybb-3w-cri"/>
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
@@ -1154,7 +1155,7 @@
                                                         <constraint firstAttribute="height" constant="21" id="Y8E-dd-6og"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="default">
                                                         <mask key="constraints">
@@ -1174,9 +1175,9 @@
                                             </constraints>
                                             <variation key="default">
                                                 <mask key="constraints">
-                                                    <exclude reference="frr-mY-hw2"/>
                                                     <exclude reference="1pe-f6-7Po"/>
                                                     <exclude reference="424-QG-b4F"/>
+                                                    <exclude reference="frr-mY-hw2"/>
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
@@ -1199,12 +1200,12 @@
                                                         <constraint firstAttribute="height" constant="21" id="zmf-UK-lT3"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="default">
                                                         <mask key="constraints">
-                                                            <exclude reference="tgP-cx-Pnc"/>
                                                             <exclude reference="o9N-UE-2Rg"/>
+                                                            <exclude reference="tgP-cx-Pnc"/>
                                                         </mask>
                                                     </variation>
                                                 </label>
@@ -1220,8 +1221,8 @@
                                             <variation key="default">
                                                 <mask key="constraints">
                                                     <exclude reference="D9v-DM-JHn"/>
-                                                    <exclude reference="ul3-6b-ICm"/>
                                                     <exclude reference="f2q-qH-JOU"/>
+                                                    <exclude reference="ul3-6b-ICm"/>
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
@@ -1244,12 +1245,12 @@
                                                         <constraint firstAttribute="width" constant="74" id="mfM-RA-VVd"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="default">
                                                         <mask key="constraints">
-                                                            <exclude reference="mfM-RA-VVd"/>
                                                             <exclude reference="2Ms-4Y-OGw"/>
+                                                            <exclude reference="mfM-RA-VVd"/>
                                                         </mask>
                                                     </variation>
                                                 </label>
@@ -1264,9 +1265,9 @@
                                             </constraints>
                                             <variation key="default">
                                                 <mask key="constraints">
-                                                    <exclude reference="qs8-5j-jAX"/>
-                                                    <exclude reference="EwQ-af-5DY"/>
                                                     <exclude reference="Ehi-Jh-RJ7"/>
+                                                    <exclude reference="EwQ-af-5DY"/>
+                                                    <exclude reference="qs8-5j-jAX"/>
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
@@ -1289,7 +1290,7 @@
                                                         <constraint firstAttribute="height" constant="21" id="gn5-eh-K3u"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="default">
                                                         <mask key="constraints">
@@ -1309,9 +1310,9 @@
                                             </constraints>
                                             <variation key="default">
                                                 <mask key="constraints">
-                                                    <exclude reference="YKw-Vw-di9"/>
                                                     <exclude reference="CM7-we-pfk"/>
                                                     <exclude reference="MPe-zZ-uv5"/>
+                                                    <exclude reference="YKw-Vw-di9"/>
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>

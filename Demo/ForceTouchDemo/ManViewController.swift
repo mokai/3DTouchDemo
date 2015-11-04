@@ -62,6 +62,7 @@ class ManViewController: UITableViewController {
             wself!.registerForPreviewingWithDelegate(wself!, sourceView: cell.bgBtnView)
             wself!.registerForPreviewingWithDelegate(wself!, sourceView: cell.commentBtn)
             //likeBtn不用设置，通过segue直接设置Peek&Pop
+            //wself!.registerForPreviewingWithDelegate(wself!, sourceView: cell.likeBtn)
             print("register\(wself!.i++)")
         }
         cell.setModel(dataSource[indexPath.row])

@@ -104,7 +104,7 @@
 		52C5BC7B1BD8845E00D82AD7 = {
 			isa = PBXGroup;
 			children = (
-				52C5BC861BD8845E00D82AD7 /* ForceTouchDemo */,
+				52C5BC861BD8845E00D82AD7 /* 3DTouchDemo */,
 				52C5BC9B1BD8845E00D82AD7 /* ForceTouchDemoTests */,
 				52C5BCA61BD8845E00D82AD7 /* ForceTouchDemoUITests */,
 				52C5BC851BD8845E00D82AD7 /* Products */,
@@ -121,7 +121,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		52C5BC861BD8845E00D82AD7 /* ForceTouchDemo */ = {
+		52C5BC861BD8845E00D82AD7 /* 3DTouchDemo */ = {
 			isa = PBXGroup;
 			children = (
 				527284681BD9D2D500E1CD74 /* Cell */,
@@ -135,6 +135,7 @@
 				52C5BC8E1BD8845E00D82AD7 /* Assets.xcassets */,
 				52C5BC931BD8845E00D82AD7 /* Info.plist */,
 			);
+			name = 3DTouchDemo;
 			path = ForceTouchDemo;
 			sourceTree = "<group>";
 		};

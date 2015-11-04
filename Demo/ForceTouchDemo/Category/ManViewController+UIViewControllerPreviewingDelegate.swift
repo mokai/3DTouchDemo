@@ -11,7 +11,6 @@ import UIKit
 extension ManViewController:UIViewControllerPreviewingDelegate{
     
     func previewingContext(previewingContext: UIViewControllerPreviewing, var viewControllerForLocation location: CGPoint) -> UIViewController? {
-        
         print(previewingContext.sourceView.tag)
         //根据点击位置算出Row
         if(previewingContext.sourceView.tag != 0){ //如果不是在UITableView上触发的则是子视图，先转换为UITableView的Point
@@ -31,7 +30,7 @@ extension ManViewController:UIViewControllerPreviewingDelegate{
             detailVc.model = model
             detailVc.peekType = .Comments
             vc = detailVc
-        default://
+        default://图片
             let detailVc = self.storyboard?.instantiateViewControllerWithIdentifier("DetailViewController") as! DetailViewController
             detailVc.model = model
             detailVc.peekType = .Image

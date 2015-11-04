@@ -13,6 +13,7 @@ class UserViewController: UIViewController,UIGestureRecognizerDelegate {
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var backBtn: UIButton!
     
+    @IBOutlet weak var bottomView: UIView!
     var model:Model?
     
     lazy var previewActions: [UIPreviewActionItem] = {
@@ -45,6 +46,12 @@ class UserViewController: UIViewController,UIGestureRecognizerDelegate {
         self.nameLabel.text = model!.name
         self.avaterImageView.image = UIImage(named: "avater\(model!.index)")
         
+        NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: Selector("backgroundTimer"), userInfo: nil, repeats: false)
+    }
+    
+    //区分Peek视图时也是实时视图图而不是简单快照
+    func backgroundTimer(){
+        self.bottomView.backgroundColor = UIColor.whiteColor();
     }
     
     override func previewActionItems() -> [UIPreviewActionItem] {

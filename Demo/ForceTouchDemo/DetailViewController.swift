@@ -43,4 +43,5 @@ class DetailViewController: UIViewController {
     override func endPeek() {
         imageViewHeight.constant = lastHeight
     }
+    
 }
