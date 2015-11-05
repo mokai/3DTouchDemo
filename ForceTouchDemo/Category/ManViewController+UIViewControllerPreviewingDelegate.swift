@@ -10,6 +10,7 @@ import UIKit
 
 extension ManViewController:UIViewControllerPreviewingDelegate{
     
+    //轻压
     func previewingContext(previewingContext: UIViewControllerPreviewing, var viewControllerForLocation location: CGPoint) -> UIViewController? {
         print(previewingContext.sourceView.tag)
         //根据点击位置算出Row
@@ -38,12 +39,12 @@ extension ManViewController:UIViewControllerPreviewingDelegate{
             detailVc.preferredContentSize = CGSize(width: 0.0, height: 320);
             vc = detailVc
         }
-        vc?.title = "标题测试"
         vc?.view //先访问一下view，初始化
         vc?.beginPeek() //peek开始
         return vc
     }
     
+    //重压
     func previewingContext(previewingContext: UIViewControllerPreviewing, commitViewController viewControllerToCommit: UIViewController) {
         viewControllerToCommit.endPeek()  //peek结束
         showViewController(viewControllerToCommit, sender: self)
