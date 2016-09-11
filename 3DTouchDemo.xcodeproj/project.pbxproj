@@ -7,18 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		525C1D111BD8E2AD00D0E84B /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525C1D101BD8E2AD00D0E84B /* UserViewController.swift */; };
-		527284661BD9D2BE00E1CD74 /* ManViewController+UIViewControllerPreviewingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527284641BD9D2BE00E1CD74 /* ManViewController+UIViewControllerPreviewingDelegate.swift */; };
-		527284671BD9D2BE00E1CD74 /* UIViewController+PeekCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527284651BD9D2BE00E1CD74 /* UIViewController+PeekCycle.swift */; };
-		5272846A1BD9D2DF00E1CD74 /* ManTableVCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527284691BD9D2DF00E1CD74 /* ManTableVCCell.swift */; };
-		5272846E1BD9D8EA00E1CD74 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5272846D1BD9D8EA00E1CD74 /* DetailViewController.swift */; };
-		52C5BC881BD8845E00D82AD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C5BC871BD8845E00D82AD7 /* AppDelegate.swift */; };
-		52C5BC8A1BD8845E00D82AD7 /* ManViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C5BC891BD8845E00D82AD7 /* ManViewController.swift */; };
-		52C5BC8D1BD8845E00D82AD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C5BC8B1BD8845E00D82AD7 /* Main.storyboard */; };
-		52C5BC8F1BD8845E00D82AD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52C5BC8E1BD8845E00D82AD7 /* Assets.xcassets */; };
-		52C5BC921BD8845E00D82AD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C5BC901BD8845E00D82AD7 /* LaunchScreen.storyboard */; };
-		52C5BC9D1BD8845E00D82AD7 /* ForceTouchDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C5BC9C1BD8845E00D82AD7 /* ForceTouchDemoTests.swift */; };
-		52C5BCA81BD8845E00D82AD7 /* ForceTouchDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C5BCA71BD8845E00D82AD7 /* ForceTouchDemoUITests.swift */; };
+		52415DC51D850AAF007CEBCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52415DB61D850AAF007CEBCB /* AppDelegate.swift */; };
+		52415DC61D850AAF007CEBCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52415DB71D850AAF007CEBCB /* Assets.xcassets */; };
+		52415DC71D850AAF007CEBCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52415DB81D850AAF007CEBCB /* LaunchScreen.storyboard */; };
+		52415DC81D850AAF007CEBCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52415DBA1D850AAF007CEBCB /* Main.storyboard */; };
+		52415DC91D850AAF007CEBCB /* ManViewController+UIViewControllerPreviewingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52415DBD1D850AAF007CEBCB /* ManViewController+UIViewControllerPreviewingDelegate.swift */; };
+		52415DCA1D850AAF007CEBCB /* UIViewController+PeekCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52415DBE1D850AAF007CEBCB /* UIViewController+PeekCycle.swift */; };
+		52415DCB1D850AAF007CEBCB /* ManTableVCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52415DC01D850AAF007CEBCB /* ManTableVCCell.swift */; };
+		52415DCC1D850AAF007CEBCB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52415DC11D850AAF007CEBCB /* DetailViewController.swift */; };
+		52415DCD1D850AAF007CEBCB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52415DC21D850AAF007CEBCB /* Info.plist */; };
+		52415DCE1D850AAF007CEBCB /* ManViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52415DC31D850AAF007CEBCB /* ManViewController.swift */; };
+		52415DCF1D850AAF007CEBCB /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52415DC41D850AAF007CEBCB /* UserViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,24 +38,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		525C1D101BD8E2AD00D0E84B /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
-		527284641BD9D2BE00E1CD74 /* ManViewController+UIViewControllerPreviewingDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ManViewController+UIViewControllerPreviewingDelegate.swift"; sourceTree = "<group>"; };
-		527284651BD9D2BE00E1CD74 /* UIViewController+PeekCycle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+PeekCycle.swift"; sourceTree = "<group>"; };
-		527284691BD9D2DF00E1CD74 /* ManTableVCCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManTableVCCell.swift; sourceTree = "<group>"; };
-		5272846D1BD9D8EA00E1CD74 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		52415DB61D850AAF007CEBCB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52415DB71D850AAF007CEBCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52415DB91D850AAF007CEBCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52415DBB1D850AAF007CEBCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52415DBD1D850AAF007CEBCB /* ManViewController+UIViewControllerPreviewingDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ManViewController+UIViewControllerPreviewingDelegate.swift"; sourceTree = "<group>"; };
+		52415DBE1D850AAF007CEBCB /* UIViewController+PeekCycle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+PeekCycle.swift"; sourceTree = "<group>"; };
+		52415DC01D850AAF007CEBCB /* ManTableVCCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManTableVCCell.swift; sourceTree = "<group>"; };
+		52415DC11D850AAF007CEBCB /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		52415DC21D850AAF007CEBCB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52415DC31D850AAF007CEBCB /* ManViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManViewController.swift; sourceTree = "<group>"; };
+		52415DC41D850AAF007CEBCB /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		52C5BC841BD8845E00D82AD7 /* 3DTouchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3DTouchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		52C5BC871BD8845E00D82AD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		52C5BC891BD8845E00D82AD7 /* ManViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManViewController.swift; sourceTree = "<group>"; };
-		52C5BC8C1BD8845E00D82AD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		52C5BC8E1BD8845E00D82AD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		52C5BC911BD8845E00D82AD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		52C5BC931BD8845E00D82AD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52C5BC981BD8845E00D82AD7 /* 3DTouchDemo.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3DTouchDemo.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		52C5BC9C1BD8845E00D82AD7 /* ForceTouchDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForceTouchDemoTests.swift; sourceTree = "<group>"; };
-		52C5BC9E1BD8845E00D82AD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52C5BCA31BD8845E00D82AD7 /* 3DTouchDemo.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3DTouchDemo.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		52C5BCA71BD8845E00D82AD7 /* ForceTouchDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForceTouchDemoUITests.swift; sourceTree = "<group>"; };
-		52C5BCA91BD8845E00D82AD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,19 +79,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		527284631BD9D2AE00E1CD74 /* Category */ = {
+		52415DB51D850AAF007CEBCB /* 3DTouchDemo */ = {
 			isa = PBXGroup;
 			children = (
-				527284641BD9D2BE00E1CD74 /* ManViewController+UIViewControllerPreviewingDelegate.swift */,
-				527284651BD9D2BE00E1CD74 /* UIViewController+PeekCycle.swift */,
+				52415DB61D850AAF007CEBCB /* AppDelegate.swift */,
+				52415DB71D850AAF007CEBCB /* Assets.xcassets */,
+				52415DB81D850AAF007CEBCB /* LaunchScreen.storyboard */,
+				52415DBA1D850AAF007CEBCB /* Main.storyboard */,
+				52415DBC1D850AAF007CEBCB /* Category */,
+				52415DBF1D850AAF007CEBCB /* Cell */,
+				52415DC11D850AAF007CEBCB /* DetailViewController.swift */,
+				52415DC21D850AAF007CEBCB /* Info.plist */,
+				52415DC31D850AAF007CEBCB /* ManViewController.swift */,
+				52415DC41D850AAF007CEBCB /* UserViewController.swift */,
+			);
+			path = 3DTouchDemo;
+			sourceTree = "<group>";
+		};
+		52415DBC1D850AAF007CEBCB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				52415DBD1D850AAF007CEBCB /* ManViewController+UIViewControllerPreviewingDelegate.swift */,
+				52415DBE1D850AAF007CEBCB /* UIViewController+PeekCycle.swift */,
 			);
 			path = Category;
 			sourceTree = "<group>";
 		};
-		527284681BD9D2D500E1CD74 /* Cell */ = {
+		52415DBF1D850AAF007CEBCB /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				527284691BD9D2DF00E1CD74 /* ManTableVCCell.swift */,
+				52415DC01D850AAF007CEBCB /* ManTableVCCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -104,9 +116,7 @@
 		52C5BC7B1BD8845E00D82AD7 = {
 			isa = PBXGroup;
 			children = (
-				52C5BC861BD8845E00D82AD7 /* 3DTouchDemo */,
-				52C5BC9B1BD8845E00D82AD7 /* ForceTouchDemoTests */,
-				52C5BCA61BD8845E00D82AD7 /* ForceTouchDemoUITests */,
+				52415DB51D850AAF007CEBCB /* 3DTouchDemo */,
 				52C5BC851BD8845E00D82AD7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -119,42 +129,6 @@
 				52C5BCA31BD8845E00D82AD7 /* 3DTouchDemo.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		52C5BC861BD8845E00D82AD7 /* 3DTouchDemo */ = {
-			isa = PBXGroup;
-			children = (
-				527284681BD9D2D500E1CD74 /* Cell */,
-				527284631BD9D2AE00E1CD74 /* Category */,
-				52C5BC871BD8845E00D82AD7 /* AppDelegate.swift */,
-				52C5BC891BD8845E00D82AD7 /* ManViewController.swift */,
-				525C1D101BD8E2AD00D0E84B /* UserViewController.swift */,
-				5272846D1BD9D8EA00E1CD74 /* DetailViewController.swift */,
-				52C5BC8B1BD8845E00D82AD7 /* Main.storyboard */,
-				52C5BC901BD8845E00D82AD7 /* LaunchScreen.storyboard */,
-				52C5BC8E1BD8845E00D82AD7 /* Assets.xcassets */,
-				52C5BC931BD8845E00D82AD7 /* Info.plist */,
-			);
-			name = 3DTouchDemo;
-			path = ForceTouchDemo;
-			sourceTree = "<group>";
-		};
-		52C5BC9B1BD8845E00D82AD7 /* ForceTouchDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				52C5BC9C1BD8845E00D82AD7 /* ForceTouchDemoTests.swift */,
-				52C5BC9E1BD8845E00D82AD7 /* Info.plist */,
-			);
-			path = ForceTouchDemoTests;
-			sourceTree = "<group>";
-		};
-		52C5BCA61BD8845E00D82AD7 /* ForceTouchDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				52C5BCA71BD8845E00D82AD7 /* ForceTouchDemoUITests.swift */,
-				52C5BCA91BD8845E00D82AD7 /* Info.plist */,
-			);
-			path = ForceTouchDemoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,9 +234,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52C5BC921BD8845E00D82AD7 /* LaunchScreen.storyboard in Resources */,
-				52C5BC8F1BD8845E00D82AD7 /* Assets.xcassets in Resources */,
-				52C5BC8D1BD8845E00D82AD7 /* Main.storyboard in Resources */,
+				52415DCD1D850AAF007CEBCB /* Info.plist in Resources */,
+				52415DC81D850AAF007CEBCB /* Main.storyboard in Resources */,
+				52415DC61D850AAF007CEBCB /* Assets.xcassets in Resources */,
+				52415DC71D850AAF007CEBCB /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,13 +262,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				527284671BD9D2BE00E1CD74 /* UIViewController+PeekCycle.swift in Sources */,
-				52C5BC8A1BD8845E00D82AD7 /* ManViewController.swift in Sources */,
-				525C1D111BD8E2AD00D0E84B /* UserViewController.swift in Sources */,
-				5272846A1BD9D2DF00E1CD74 /* ManTableVCCell.swift in Sources */,
-				52C5BC881BD8845E00D82AD7 /* AppDelegate.swift in Sources */,
-				527284661BD9D2BE00E1CD74 /* ManViewController+UIViewControllerPreviewingDelegate.swift in Sources */,
-				5272846E1BD9D8EA00E1CD74 /* DetailViewController.swift in Sources */,
+				52415DCF1D850AAF007CEBCB /* UserViewController.swift in Sources */,
+				52415DCB1D850AAF007CEBCB /* ManTableVCCell.swift in Sources */,
+				52415DCE1D850AAF007CEBCB /* ManViewController.swift in Sources */,
+				52415DC51D850AAF007CEBCB /* AppDelegate.swift in Sources */,
+				52415DCC1D850AAF007CEBCB /* DetailViewController.swift in Sources */,
+				52415DCA1D850AAF007CEBCB /* UIViewController+PeekCycle.swift in Sources */,
+				52415DC91D850AAF007CEBCB /* ManViewController+UIViewControllerPreviewingDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,7 +276,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52C5BC9D1BD8845E00D82AD7 /* ForceTouchDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +283,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52C5BCA81BD8845E00D82AD7 /* ForceTouchDemoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,20 +302,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		52C5BC8B1BD8845E00D82AD7 /* Main.storyboard */ = {
+		52415DB81D850AAF007CEBCB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				52C5BC8C1BD8845E00D82AD7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		52C5BC901BD8845E00D82AD7 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				52C5BC911BD8845E00D82AD7 /* Base */,
+				52415DB91D850AAF007CEBCB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		52415DBA1D850AAF007CEBCB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52415DBB1D850AAF007CEBCB /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -432,9 +405,8 @@
 		52C5BCAD1BD8845E00D82AD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = ForceTouchDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/3DTouchDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.mokai.demo.TouchDemo;
 				PRODUCT_NAME = 3DTouchDemo;
@@ -444,9 +416,8 @@
 		52C5BCAE1BD8845E00D82AD7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = ForceTouchDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/3DTouchDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.mokai.demo.TouchDemo;
 				PRODUCT_NAME = 3DTouchDemo;
