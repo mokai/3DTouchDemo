@@ -46,16 +46,7 @@ class UserViewController: UIViewController,UIGestureRecognizerDelegate {
         self.nameLabel.text = model!.name
         self.avaterImageView.image = UIImage(named: "avater\(model!.index)")
         
-        NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: Selector("backgroundTimer"), userInfo: nil, repeats: false)
-    }
-    
-    //区分Peek视图时也是实时视图图而不是简单快照
-    func backgroundTimer(){
-        self.bottomView.backgroundColor = UIColor.whiteColor();
-    }
-    
-    override func previewActionItems() -> [UIPreviewActionItem] {
-        return previewActions
+        NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: #selector(UserViewController.backgroundTimer), userInfo: nil, repeats: false)
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -78,6 +69,14 @@ class UserViewController: UIViewController,UIGestureRecognizerDelegate {
     override func viewDidDisappear(animated: Bool) {
         super.viewDidDisappear(animated)
         print("viewDidDisappear")
+    }
+    //区分Peek视图时也是实时视图图而不是简单快照
+    func backgroundTimer(){
+        self.bottomView.backgroundColor = UIColor.whiteColor();
+    }
+    
+    override func previewActionItems() -> [UIPreviewActionItem] {
+        return previewActions
     }
     
     //开始Peek

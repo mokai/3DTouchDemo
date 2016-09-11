@@ -40,10 +40,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //MARK:可以在这里根据type与userinfo来进行页面跳转
         let type = shortcutItem.type
         let userinfo = shortcutItem.userInfo
-        print("quick action:\(shortcutItem.localizedTitle):userinfo<\(userinfo)>")
+        print("quick action:\(shortcutItem.localizedTitle):type<\(type)>:userinfo<\(userinfo)>")
     }
-
-
 
 }
 

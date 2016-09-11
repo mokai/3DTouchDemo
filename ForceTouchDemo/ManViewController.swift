@@ -45,9 +45,6 @@ class ManViewController: UITableViewController {
         }
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-    }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return dataSource.count
@@ -56,14 +53,16 @@ class ManViewController: UITableViewController {
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell =  tableView.dequeueReusableCellWithIdentifier("ManTableVCCell") as! ManTableVCCell
         //保证每个Cell只注册一次
-        weak var wself = self
-        dispatch_once(&cell.once_t) { () -> Void in
-            wself!.registerForPreviewingWithDelegate(wself!, sourceView: cell.nameBtn)
-            wself!.registerForPreviewingWithDelegate(wself!, sourceView: cell.bgBtnView)
-            wself!.registerForPreviewingWithDelegate(wself!, sourceView: cell.commentBtn)
+        dispatch_once(&cell.once_t) { [weak self] () -> Void in
+            guard let wself = self else {
+                return
+            }
+            wself.registerForPreviewingWithDelegate(wself, sourceView: cell.nameBtn)
+            wself.registerForPreviewingWithDelegate(wself, sourceView: cell.bgBtnView)
+            wself.registerForPreviewingWithDelegate(wself, sourceView: cell.commentBtn)
             //likeBtn不用设置，通过segue直接设置Peek&Pop
-            //wself!.registerForPreviewingWithDelegate(wself!, sourceView: cell.likeBtn)
-            print("register\(wself!.i++)")
+            //wself.registerForPreviewingWithDelegate(wself, sourceView: cell.likeBtn)
+            print("register\(wself.i+=1)")
         }
         cell.setModel(dataSource[indexPath.row])
         return cell

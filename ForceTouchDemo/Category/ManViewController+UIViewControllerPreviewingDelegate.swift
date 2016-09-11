@@ -11,8 +11,9 @@ import UIKit
 extension ManViewController:UIViewControllerPreviewingDelegate{
     
     //轻压
-    func previewingContext(previewingContext: UIViewControllerPreviewing, var viewControllerForLocation location: CGPoint) -> UIViewController? {
+    func previewingContext(previewingContext: UIViewControllerPreviewing, viewControllerForLocation location: CGPoint) -> UIViewController? {
         print(previewingContext.sourceView.tag)
+        var location = location
         //根据点击位置算出Row
         if(previewingContext.sourceView.tag != 0){ //如果不是在UITableView上触发的则是子视图，先转换为UITableView的Point
             location = previewingContext.sourceView.convertPoint(location, toView:self.tableView)
