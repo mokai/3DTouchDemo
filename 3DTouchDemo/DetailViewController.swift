@@ -8,7 +8,7 @@
 
 import UIKit
 
-enum DetailPeekType:Int{
+enum DetailPeekType: Int{
     case Image = 1
     case Comments
 }
@@ -16,13 +16,13 @@ enum DetailPeekType:Int{
 
 class DetailViewController: UIViewController {
     @IBOutlet weak var imageViewHeight: NSLayoutConstraint!
-    private var lastHeight:CGFloat!
+    private var lastHeight: CGFloat!
     
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var commentsView: UIView!
     
-    var model:Model!
-    var peekType:DetailPeekType!
+    var model: Model!
+    var peekType: DetailPeekType!
     
     
     override func viewDidLoad() {
@@ -35,7 +35,7 @@ class DetailViewController: UIViewController {
         lastHeight = imageViewHeight.constant
         if(peekType == .Comments){
             imageViewHeight.constant = 0
-        }else{
+        } else {
             imageViewHeight.constant = self.view.frame.size.height
         }
     }

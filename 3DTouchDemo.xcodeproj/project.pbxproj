@@ -82,16 +82,16 @@
 		52415DB51D850AAF007CEBCB /* 3DTouchDemo */ = {
 			isa = PBXGroup;
 			children = (
-				52415DB61D850AAF007CEBCB /* AppDelegate.swift */,
-				52415DB71D850AAF007CEBCB /* Assets.xcassets */,
-				52415DB81D850AAF007CEBCB /* LaunchScreen.storyboard */,
-				52415DBA1D850AAF007CEBCB /* Main.storyboard */,
 				52415DBC1D850AAF007CEBCB /* Category */,
 				52415DBF1D850AAF007CEBCB /* Cell */,
+				52415DB61D850AAF007CEBCB /* AppDelegate.swift */,
 				52415DC11D850AAF007CEBCB /* DetailViewController.swift */,
-				52415DC21D850AAF007CEBCB /* Info.plist */,
 				52415DC31D850AAF007CEBCB /* ManViewController.swift */,
 				52415DC41D850AAF007CEBCB /* UserViewController.swift */,
+				52415DBA1D850AAF007CEBCB /* Main.storyboard */,
+				52415DB81D850AAF007CEBCB /* LaunchScreen.storyboard */,
+				52415DB71D850AAF007CEBCB /* Assets.xcassets */,
+				52415DC21D850AAF007CEBCB /* Info.plist */,
 			);
 			path = 3DTouchDemo;
 			sourceTree = "<group>";

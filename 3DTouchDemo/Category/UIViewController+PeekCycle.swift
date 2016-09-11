@@ -14,6 +14,7 @@ import UIKit
 extension UIViewController {
     //开始peek，VC为Peek显示做初始化
     func beginPeek(){}
+    
     //结束peek,VC为真正显示做初始化
     func endPeek(){}
 }

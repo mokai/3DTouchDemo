@@ -8,13 +8,12 @@
 
 import UIKit
 
-class UserViewController: UIViewController,UIGestureRecognizerDelegate {
+class UserViewController: UIViewController, UIGestureRecognizerDelegate {
     @IBOutlet weak var avaterImageView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var backBtn: UIButton!
-    
     @IBOutlet weak var bottomView: UIView!
-    var model:Model?
+    var model: Model?
     
     lazy var previewActions: [UIPreviewActionItem] = {
         func previewActionForTitle(title: String, style: UIPreviewActionStyle = .Default) -> UIPreviewAction {
@@ -42,7 +41,7 @@ class UserViewController: UIViewController,UIGestureRecognizerDelegate {
         let layer = self.avaterImageView.layer
         layer.masksToBounds = true
         layer.cornerRadius = self.avaterImageView.frame.size.width / 2
-    
+        
         self.nameLabel.text = model!.name
         self.avaterImageView.image = UIImage(named: "avater\(model!.index)")
         

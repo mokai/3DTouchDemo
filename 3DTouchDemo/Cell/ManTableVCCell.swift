@@ -10,7 +10,7 @@ import UIKit
 
 class ManTableVCCell: UITableViewCell {
     
-    var once_t:dispatch_once_t = 0
+    var once_t: dispatch_once_t = 0
     
     @IBOutlet weak var bgBtnView: UIButton!
     @IBOutlet weak var nameBtn: UIButton!

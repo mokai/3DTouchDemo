@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension ManViewController:UIViewControllerPreviewingDelegate{
+extension ManViewController: UIViewControllerPreviewingDelegate{
     
     //轻压
     func previewingContext(previewingContext: UIViewControllerPreviewing, viewControllerForLocation location: CGPoint) -> UIViewController? {
@@ -16,13 +16,13 @@ extension ManViewController:UIViewControllerPreviewingDelegate{
         var location = location
         //根据点击位置算出Row
         if(previewingContext.sourceView.tag != 0){ //如果不是在UITableView上触发的则是子视图，先转换为UITableView的Point
-            location = previewingContext.sourceView.convertPoint(location, toView:self.tableView)
+            location = previewingContext.sourceView.convertPoint(location, toView: self.tableView)
         }
         let index = super.tableView.indexPathForRowAtPoint(location)
         let model = dataSource[index!.row]
         
         var vc:UIViewController?
-        switch previewingContext.sourceView.tag{
+        switch previewingContext.sourceView.tag {
         case 1: //头像
             let userVc = self.storyboard?.instantiateViewControllerWithIdentifier("UserViewController") as! UserViewController
             userVc.model = model
